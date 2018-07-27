@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+             version="2.0">
+    <persistence-unit name="QuickStart"
+                      transaction-type="RESOURCE_LOCAL">
+        <class>me.tillard.quickstart.entity.Customer</class>
+        <class>me.tillard.quickstart.entity.Order</class>
+        <class>me.tillard.quickstart.entity.Product</class>
+        <class>me.tillard.quickstart.entity.OrderLine</class>
+    </persistence-unit>
+</persistence>
