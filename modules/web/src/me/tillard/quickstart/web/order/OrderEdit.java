@@ -24,5 +24,6 @@ public class OrderEdit extends AbstractEditor<Order> {
             amount = amount.add(line.getProduct().getPrice().multiply(line.getQuantity()));
         }
         getItem().setAmount(amount);
+        //Test Github
     }
 }
